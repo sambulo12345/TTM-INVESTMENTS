@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TTM Investments (Pty) Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="text-gray-900 bg-gray-50">
+  <!-- Hero Section -->
+  <section id="home" class="relative min-h-screen flex items-center justify-center" style="background:url('https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 text-center text-white px-4">
+      <h1 class="text-4xl md:text-6xl font-bold">NEW ERA OF BUSINESS INTELLIGENCE</h1>
+      <p class="text-lg md:text-2xl mt-4">Empowering entrepreneurs with smart strategies in consultancy, compliance, and property investment.</p>
+      <a href="#contact" class="inline-block mt-8 px-6 py-3 bg-yellow-400 text-black rounded-full font-semibold hover:bg-yellow-500 transition">Contact Us</a>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-3xl text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">About TTM Investments</h2>
+      <p class="text-gray-700 mb-4">
+        TTM Investments (Pty) Ltd is dedicated to supporting clients in business consultancy, compliance, and property investment. Our experienced team helps entrepreneurs navigate challenges and achieve sustainable growth.
+      </p>
+      <p class="text-gray-700">
+        Whether you’re starting out or scaling up, our innovative strategies and deep industry knowledge will guide your journey to success.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h3 class="font-semibold text-xl mb-2">Business Consultancy</h3>
+          <p class="text-gray-600">Strategic guidance, market analysis, and operational support for new and established businesses.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h3 class="font-semibold text-xl mb-2">Compliance</h3>
+          <p class="text-gray-600">Expert assistance with regulatory requirements, business registration, and legal compliance.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h3 class="font-semibold text-xl mb-2">Property Investment</h3>
+          <p class="text-gray-600">Advice on property acquisition, sales, and portfolio management for optimal returns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-2xl">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Contact Us</h2>
+      <form class="mt-8 space-y-6">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required />
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required />
+        <textarea placeholder="Your Message" class="w-full p-3 border rounded h-32" required></textarea>
+        <button type="submit" class="w-full py-3 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-500 transition">Send Message</button>
+      </form>
+      <p class="text-center text-gray-500 mt-6">Or email us at <a href="mailto:sambulomadlopha@gmail.com" class="text-yellow-600 font-semibold">sambulomadlopha@gmail.com</a></p>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-200 text-gray-600">
+    &copy; 2025 TTM Investments (Pty) Ltd. All Rights Reserved.
+  </footer>
+</body>
+</html>
